@@ -26,7 +26,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/921b10f66a5b0fd9e1381.jpg https://graph.org/file/ffe70d213bc91888da4a1.jpg https://graph.org/file/9d24e39a462cab1c8b414.jpg https://graph.org/file/a0dfa824e5b0a79bb82bb.jpg https://graph.org/file/9cf896c0d2f9aea7be5e9.jpg https://graph.org/file/7ee9888ab8f7010a75082.jpg https://graph.org/file/d7f7e92340f094e5d32ed.jpg https://graph.org/file/c5408bb6ffbe6e3f5553a.jpg https://graph.org/file/003094a9d48a5f62c990d.jpg https://graph.org/file/f5bcd94bf7b86c2a5adfc.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/the_owner_support")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegram.me/Indian3DCinema")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
