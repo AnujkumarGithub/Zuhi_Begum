@@ -16,9 +16,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6727168738:AAGeFmdanHxSJGL8T4wniJcvhXq7KVxcCnU")
+API_ID = int(environ.get('API_ID', '23419746'))
+API_HASH = environ.get('API_HASH', '77fb4098860e9cca0dc29d653396ce27')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6796690607:AAFYs4S48sQoOunIsl4ly81ojLCucX8toxk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -64,7 +64,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.me/Indian3DCinema')
 TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/Indian3DCinema')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001787750204'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002076419458'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Queries_Assistant_Bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
